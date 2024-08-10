@@ -51,9 +51,9 @@ align-items: center;
 
 
 }
-.header-item{
+.header-content{
     background-color:rgba(0 0 0 / 23%);
-    padding:10px;
+    padding:30px;
     border-top:solid 1px red;
 
 }
