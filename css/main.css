@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    height:2000px;
+}
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    background-color: gray;
+    position:sticky;
+    top:0;
+}
+.navbar .container{
+    display:flex;
+    width:70%;
+    margin:auto;
+  
+
+}
+ .logo{
+    width:30%;
+}
+ .list{
+    flex-grow: 1;
+    
+    }
+ .list ul{
+    display:flex;
+    justify-content: flex-end;
+    list-style-type:none;
+    gap:10px;
+}
+.list ul a{
+    color:white;
+    text-transform: capitalize;
+}
+
+
+.header{
+    background-color:rgba(0,0,0,.7) ;
+    color:white;
+    height:780px;
+    display:flex;
+    justify-content: center;
+align-items: center;
+
+
+
+}
+.header-item{
+    background-color:rgba(0 0 0 / 23%);
+    padding:10px;
+    border-top:solid 1px red;
+
+}
+
+
+
+
+
+
+
+
